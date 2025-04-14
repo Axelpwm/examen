@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: white;
+  }
+  
+  #panorama-container {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  /* Estilo para portada */
+  .portada {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .portada h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .portada p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  }
+  
+  .boton {
+    background: #00bcd4;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    transition: background 0.3s ease;
+  }
+  
+  .boton:hover {
+    background: #0097a7;
+  }
+  
