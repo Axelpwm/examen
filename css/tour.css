@@ -35,7 +35,7 @@ body, html {
   
   .boton {
     background: #00bcd4;
-    padding: 15px 30px;
+    padding: 10px 20px;
     color: white;
     text-decoration: none;
     border-radius: 10px;
@@ -46,4 +46,11 @@ body, html {
   .boton:hover {
     background: #0097a7;
   }
-  
+  .text-frame {
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
